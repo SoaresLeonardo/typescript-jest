@@ -11,7 +11,7 @@ export class IndividualCustomer
   lastName: string;
   cpf: string;
 
-  constructor(firstName: string, lastName: string, cpf: string, cnpj: string) {
+  constructor(firstName: string, lastName: string, cpf: string) {
     this.firstName = firstName;
     this.lastName = lastName;
     this.cpf = cpf;
